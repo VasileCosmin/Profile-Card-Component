@@ -104,6 +104,11 @@ body p {
   text-transform: capitalize;
 }
 
+.attribution {
+  position: absolute;
+  bottom: 0;
+}
+
 @media(max-width: 400px) {
   .card {
     width: 350px;
