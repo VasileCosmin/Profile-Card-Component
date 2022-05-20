@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+body p {
+  font-size: 18px;
+}
+
+.top {
+  position: absolute;
+  top: -400px;
+  left: -100px;
+  width: 1000px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: -400px;
+  right: -100px;
+  width: 1000px;
+}
+
+.card {
+  position: relative;
+  background-color:  #fff;
+  z-index: 10;
+  border-radius: 20px;
+  width: 400px;
+  margin-top: 200px;
+}
+
+.photo1 {
+  width: 100%;
+  border-radius: 17px 17px 0 0;
+}
+
+.man {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.person {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.description h2 {
+  color: hsl(229, 23%, 23%);
+}
+
+.description h3 {
+  color: hsl(227, 10%, 46%);
+  margin-left: 10px;
+}
+
+.person p {
+  color: hsl(227, 10%, 46%);
+  margin-bottom: 20px;
+}
+
+.line {
+  border-top: 1px solid hsl(227, 15%, 88%);
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.stats h2 {
+  color: hsl(229, 23%, 23%);
+}
+
+.stats p {
+  color: hsl(227, 10%, 46%);
+  text-transform: capitalize;
+}
+
+@media(max-width: 400px) {
+  .card {
+    width: 350px;
+  }
+}
