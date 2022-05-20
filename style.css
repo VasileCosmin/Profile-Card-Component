@@ -104,7 +104,7 @@ body p {
   text-transform: capitalize;
 }
 
-.attribution {
+footer {
   position: absolute;
   bottom: 0;
 }
